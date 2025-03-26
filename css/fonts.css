@@ -1,0 +1,210 @@
+:root {
+  --height: 100vh;
+  --title-font: 'Proxima Nova', 'Involve', sans-serif;
+  --text-font: 'Futura PT', 'Rubik', sans-serif;
+  --bg: #fff;
+  --text: #161616;
+  --white: #fff;
+  --black: #000;
+  --border: #dfdfdf;
+  --gray: #6c6c6c;
+  --error: #d91717;
+  --green: #0fe397;
+}
+
+/* Winston font */
+
+@font-face {
+  font-family: 'Winston';
+  src: url('../fonts/Winston/Winston-Bold.woff2') format('woff2'),
+       url('../fonts/Winston/Winston-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Winston';
+  src: url('../fonts/Winston/Winston-SemiBold.woff2') format('woff2'),
+       url('../fonts/Winston/Winston-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Winston';
+  src: url('../fonts/Winston/Winston-Medium.woff2') format('woff2'),
+       url('../fonts/Winston/Winston-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Winston';
+  src: url('../fonts/Winston/Winston-Regular.woff2') format('woff2'),
+      url('../fonts/Winston/Winston-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Rubik font */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+       url('../fonts/Rubik/Rubik-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Rubik/Rubik-Light.woff2') format('woff2'),
+       url('../fonts/Rubik/Rubik-Light.woff') format('woff');
+}
+
+h1,
+.title_one {
+  font-family: var(--title-font);
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 78px;
+  color: var(--text);
+}
+
+h2,
+.title_two {
+  font-family: var(--title-font);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  color: var(--text);
+}
+
+h3,
+.title_three {
+  font-family: var(--title-font);
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--text);
+}
+
+h4,
+.title_four {
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--text);
+}
+
+h5,
+.title_five {
+  font-family: var(--title-font);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: var(--text);
+}
+
+a,
+p,
+li,
+input,
+input::placeholder,
+textarea,
+[data-select-title],
+[data-select-item] {
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+p {
+  color: var(--text);
+}
+
+.text_one {
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--text);
+}
+
+.text_two {
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: var(--text);
+}
+
+.text_three {
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  color: var(--text);
+}
+
+.text_four {
+  font-family: var(--title-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: var(--text);
+}
+
+small {
+  font-family: var(--text-font);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  color: var(--error);
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+button,
+.btn,
+.btn input {
+  font-family: var(--title-font);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: var(--text);
+}
+
+/* start 743px */
+@media (max-width: 743px) {
+  h4,
+  .title_four {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .text_four {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+/* end 743px */
