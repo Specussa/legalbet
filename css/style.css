@@ -124,6 +124,11 @@
   transform: translate(-50%,-50%);
 }
 
+.card__names .card__state,
+.card__top_info {
+  display: none;
+}
+
 .card__states {
   display: flex;
   align-items: center;
@@ -271,10 +276,11 @@
   .card__names .card__desc {
     display: none;
   }
-  .card__names {
+  .card__names .card__state {
+    display: flex;
     gap: 3px;
   }
-  .card__top_right {
+  .card__top_info {
     display: flex;
     flex-direction: column;
     gap: 3px;
